@@ -1,0 +1,165 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputTask {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #0056b3;
+}
+
+.taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.taskItem:hover {
+  background-color: #e0f7fa;
+}
+
+.completed .taskText {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.taskText {
+  flex: 1;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.editInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editBtn {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.editBtn:hover {
+  background-color: #ec971f;
+}
+
+.completeBtn {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.completeBtn:hover {
+  background-color: #449d44;
+}
+
+.deleteBtn {
+  background-color: #d9534f;
+  color: white;
+}
+
+.deleteBtn:hover {
+  background-color: #c9302c;
+}
+
+.saveBtn {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.saveBtn:hover {
+  background-color: #31b0d5;
+}
+
+.cancelBtn {
+  background-color: #868e96;
+  color: white;
+}
+
+.cancelBtn:hover {
+  background-color: #6c757d;
+}
+
+/* Responsive styling */
+@media (max-width: 500px) {
+  .inputContainer {
+    flex-direction: column;
+  }
+  .taskItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .taskText {
+    margin-bottom: 5px;
+  }
+}
