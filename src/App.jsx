@@ -75,40 +75,44 @@ const App = () => {
                     value={editText}
                     onChange={(e) => setEditText(e.target.value)}
                   />
-                  <button
-                    onClick={() => saveTask(index)}
-                    className={styles.saveBtn}
-                  >
-                    Save
-                  </button>
-                  <button
-                    onClick={() => setIsEditing(null)}
-                    className={styles.cancelBtn}
-                  >
-                    Cancel
-                  </button>
+                  <div>
+                    <button
+                      onClick={() => saveTask(index)}
+                      className={styles.saveBtn}
+                    >
+                      Save
+                    </button>
+                    <button
+                      onClick={() => setIsEditing(null)}
+                      className={styles.cancelBtn}
+                    >
+                      Cancel
+                    </button>
+                  </div>
                 </>
               ) : (
                 <>
                   <span className={styles.taskText}>{data.text}</span>
-                  <button
-                    onClick={() => editTask(index)}
-                    className={styles.editBtn}
-                  >
-                    Edit
-                  </button>
-                  <button
-                    onClick={() => toggleComplete(index)}
-                    className={styles.completeBtn}
-                  >
-                    {data.isCompleted ? "Undo" : "Complete"}
-                  </button>
-                  <button
-                    onClick={() => deleteTask(index)}
-                    className={styles.deleteBtn}
-                  >
-                    Delete
-                  </button>
+                  <div>
+                    <button
+                      onClick={() => editTask(index)}
+                      className={styles.editBtn}
+                    >
+                      Edit
+                    </button>
+                    <button
+                      onClick={() => toggleComplete(index)}
+                      className={styles.completeBtn}
+                    >
+                      {data.isCompleted ? "Undo" : "Complete"}
+                    </button>
+                    <button
+                      onClick={() => deleteTask(index)}
+                      className={styles.deleteBtn}
+                    >
+                      Delete
+                    </button>
+                  </div>
                 </>
               )}
             </li>
