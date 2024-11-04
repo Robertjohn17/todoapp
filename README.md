@@ -23,22 +23,36 @@ A simple and interactive To-Do application built with React. This app allows use
 
 - **Node.js**: Ensure Node.js is installed on your machine. You can download it from [Node.js official website](https://nodejs.org/).
 
+## Demo
+
+    https://robertjohn17.github.io/todoapp/
+
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Robert-john17/todo-app.git
 
+   ```
+
 2. Navigate into the project directory:
-    ```bash
-    cd todo-app
+
+   ```bash
+   cd todo-app
+
+   ```
 
 3. Install dependencies:
-    ```bash
-    npm install
+
+   ```bash
+   npm install
+
+   ```
 
 4. Start the application:
-     ```bash
-    npm start
-    
+   ```bash
+   npm start
+
+   ```
 5. Open your browser and visit http://localhost:3000 to view the app.
