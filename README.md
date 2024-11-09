@@ -30,7 +30,7 @@ Include some sample screenshots of the application for a quick preview:
 
 - ![Todo List view](./public/home.png)
 
-You can check out the live demo [https://robertjohn17.github.io/todoapp/](#) (Add a link if available).
+You can check out the live demo [https://robertjohn17.github.io/todoapp/](#)
 
 ---
 
