@@ -1,58 +1,72 @@
-# To-Do App
+# React Todo App
 
-A simple and interactive To-Do application built with React. This app allows users to add, edit, complete, and delete tasks, with responsive styling and animated transitions.
+A simple and user-friendly Todo application built with React. This app allows users to add, edit, delete, and mark tasks as complete, helping to manage daily tasks efficiently.
+
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
 
 ## Features
 
-- **Add Tasks**: Easily add new tasks with the "Add Task" button.
-- **Edit Tasks**: Edit existing tasks by clicking on the "Edit" button.
-- **Complete/Undo Tasks**: Mark tasks as completed or undo them.
-- **Delete Tasks**: Delete tasks with a confirmation dialog.
-- **Notifications**: Toast notifications appear when tasks are added or deleted.
-- **Responsive & Animated**: Adapts to different screen sizes with CSS animations.
+- **Add Tasks**: Quickly add new tasks to the list.
+- **Edit Tasks**: Modify existing tasks.
+- **Delete Tasks**: Remove tasks when no longer needed.
+- **Complete Tasks**: Mark tasks as complete and visually distinguish them from pending tasks.
+- **Filter Tasks**: Optionally filter tasks by status (all, completed, or pending).
 
-## Technologies Used
-
-- **React**: Frontend library for building the UI.
-- **React Toastify**: For displaying notifications.
-- **CSS Modules**: For component-level styling and animation.
-
-## Getting Started
-
-### Prerequisites
-
-- **Node.js**: Ensure Node.js is installed on your machine. You can download it from [Node.js official website](https://nodejs.org/).
+---
 
 ## Demo
 
-    https://robertjohn17.github.io/todoapp/
+Include some sample screenshots of the application for a quick preview:
 
-### Installation
+- ![Todo List view](./public/home.png)
 
-1. Clone the repository:
+You can check out the live demo [here](#) (Add a link if available).
 
-   ```bash
-   git clone https://github.com/Robert-john17/todo-app.git
+---
 
-   ```
+## Installation
 
-2. Navigate into the project directory:
+To set up and run this project locally, follow these steps:
 
-   ```bash
-   cd todo-app
+### Prerequisites
 
-   ```
+- Node.js
 
-3. Install dependencies:
+### Clone the Repository
 
-   ```bash
-   npm install
+Clone the project repository and navigate to the project directory:
 
-   ```
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
 
-4. Start the application:
-   ```bash
-   npm start
+npm install
+npm start
 
-   ```
-5. Open your browser and visit http://localhost:3000 to view the app.
+```
+The app will run on http://localhost:3000.
+
+## Usage 
+
+1. Add a New Task: Enter the task title in the input field and click the "Add" button to create a new task.
+2. Edit an Existing Task: Click on the "Edit" button next to a task to modify it. Update the task details and save changes.
+3. Mark Task as Complete: Click on the checkbox or "Complete" button to mark a task as complete. Completed tasks will be visually distinct.
+4. Delete a Task: Click on the "Delete" button next to a task to remove it from the list.
+
+## Technologies Used
+
+- Frontend: React
+- Styling: CSS
+
+
+
